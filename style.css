@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px 15%;
+    background: #605a56;
+    color: #e8eaa1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.crud{
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #373331;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+input:focus{
+    background: #80ac7b;
+    transform: scale(1.1);
+
+}
+
+.price input{
+    width: 20%;
+}
+
+#total{
+    background-color: #faff74;
+    color: black;
+    padding: 4px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: "Total: "
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #faff74;
+    border-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.5s;
+}
+/* #submit{
+    width: 50%;
+    
+} */
+button:hover{
+    background: #e8eaa1;
+    letter-spacing: 1px;
+}
+
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th{
+        width: 100%;
+    height: 30px;
+    border: none;
+
+    text-transform: uppercase;
+}
+
+th, td{
+    width: 100%;
+    height: 30px;
+    border: none;
+
+    padding: 5px;
+}
+
+#deleteAll{
+    margin: 15px 0px;
+}
+table button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.first-color { 
+	background: #373331; 
+}
+	
+.second-color { 
+	background: #605a56; 
+}
+
+.third-color { 
+	background: #80ac7b; 
+}
+
+.fourth-color { 
+	background: #e8eaa1; 
+    color:#27da13; 
+}
